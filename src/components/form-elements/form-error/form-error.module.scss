@@ -1,0 +1,19 @@
+.container {
+  display: flex;
+  align-items: center;
+  color: #d32f2f;
+  justify-content: flex-end;
+  position: absolute;
+  top: -14px;
+  right: 0;
+  i {
+    font-size: 12px;
+    vertical-align: center;
+  }
+
+  p {
+    padding-left: 4px;
+    text-align: right;
+    font-size: 12px;
+  }
+}

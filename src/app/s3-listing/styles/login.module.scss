@@ -1,0 +1,54 @@
+.form{
+  width: 500px;
+  
+.heading {
+  margin: 0;
+  margin-top: 24px;
+  font-size: 64px;
+  color: #353d48;
+  text-align: center;
+}
+
+.showButton {
+  color: #53a0b4;
+}
+
+.loginActions {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.stay-signed-in {
+  display: block;
+  text-align: left;
+  color: #53a0b4;
+  text-decoration: none;
+  display: flex;
+  .checkbox {
+    padding: 0 9px;
+  }
+}
+.rememberLabel {
+  font-size: 16px;
+  color:#333c4b;
+}
+
+.form-action {
+  padding: 12px 0px;
+  button {
+    &:disabled {
+      background: #353d48;
+      color: #fff;
+      opacity: 0.5;
+      cursor: not-allowed;
+      span {
+        text-transform: uppercase;
+      }
+    }
+    span {
+      text-transform: uppercase;
+    }
+  }
+}
+}
